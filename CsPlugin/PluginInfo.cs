@@ -1,5 +1,8 @@
 ﻿
 using Rhino.PlugIns;
+using System.Diagnostics.CodeAnalysis;
+using System.Reflection;
+using System.Reflection.Metadata.Ecma335;
 
 namespace CsPlugin
 {

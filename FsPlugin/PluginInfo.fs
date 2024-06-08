@@ -3,10 +3,7 @@
 open Rhino.PlugIns
 open System.Drawing
 
-// #nowarn "FS1109"
 
-[<AllowNullLiteral>]
-[<System.Runtime.InteropServices.Guid("adf")>]
 type MyPlugin() as this = 
     inherit PlugIn()
     static let mutable instance = null
